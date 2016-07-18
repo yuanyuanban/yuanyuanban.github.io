@@ -1,0 +1,47 @@
+body{background: #ddd;}
+
+/*随机换位置*/
+#aBox_img{text-align: center;}
+#ul1{width:510px;margin:10px auto;}
+#ul1 li{width:150px;height: 150px;float: left;margin:10px;}
+#ul1 li img{width:150px;height: 150px;} 
+.box{border:2px dashed #DA70D6;}
+#btn{width:200px;height: 36px;display: inline-block;border-radius: 20px;background: #5F9EA0;line-height: 36px;text-align: center;color: #fff;margin-top: 20px;}
+#back_top{position:fixed; right:10px; bottom:80px; display:none;width:50px;height:152px;background: url(img/top.gif) no-repeat;outline: none;cursor: pointer;}
+#clock{}
+#clock li {float:left; width:24px; height:35px; overflow:hidden; position:relative; line-height:35px; text-align:center; font-size:25px;}
+#clock li img {position:absolute; left:0; top:0px;}
+
+
+/*无缝滚动*/
+#box{ width:612px; margin:200px auto; border:1px solid #ccc; height:200px; position:relative; overflow:hidden;}
+#box ul{ position:absolute; left:0px; top:0;}
+#box ul li{ width:160px; height:200px; float:left; padding:0 10px;}
+#box ul li img{ width:160px; height:200px; float:left;}
+
+#box a{ position:absolute; top:0; width:50%; height:100%; z-index:2; opacity:0;}
+#left{ background:red; left:0;}
+#right{ background:blue; right:0;}
+
+/*简易日历*/
+.calendar_box{width: 212px;height: 204px;margin: 200px auto;}
+.my_calendar{width:210px; height:202px;border:1px solid black; position: relative; overflow:hidden;}
+.my_calendar span{display:block; width:100%; height:30px; line-height:30px; text-align:center;font-weight:bold;}
+.my_calendar ol li{float:left; width:30px; height:30px; line-height:30px; text-align:center; }
+.my_calendar ol li.week_end{color:#F63;}
+.my_calendar ul li{width:30px; height:30px; line-height:30px; text-align:center; float:left;}
+.my_calendar ul li.past{/*color:#ccc;*/color: #00FFFF;}
+.my_calendar ul li.today{color:#F63; font-size:12px;}
+
+.my_calendar .prev,.my_calendar .next{position:absolute; top:4px; text-decoration:none; color:#000;}
+.my_calendar .prev{left:4px;}
+.my_calendar .next{right:4px;}
+
+/*苹果菜单*/
+#dock{ position:absolute; left:0; bottom:0; text-align:center; width:100%;}
+
+/*苹果查看器*/
+#iphone { width: 900px; height: 600px; background: url(../img/iphone/bg.jpg); position: absolute; top: 50%; left: 50%; margin: 0 0 0 -450px; }
+#wrap { width: 238px; height: 360px; position: absolute; top: 121px; left: 326px; overflow:hidden; }
+#iphone ul { width: 960px; height: 361px; cursor: pointer; position: absolute; top: 0px; left: 0px; }
+#iphone li { float: left; width:240px; height:360px; overflow:hidden;}
